@@ -1,0 +1,22 @@
+{
+  "name": "chataplication",
+  "version": "1.0.0",
+  "description": "This is a test using socket.io and nodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon ./backend/app.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "socketIO"
+  ],
+  "author": "Leguizamon Elias",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
